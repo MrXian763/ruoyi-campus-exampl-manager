@@ -1,6 +1,6 @@
 <template>
   <div class="app-container home">
-    <p>此项目用的若依UI</p>
+    <p>欢迎使用</p>
   </div>
 </template>
 
