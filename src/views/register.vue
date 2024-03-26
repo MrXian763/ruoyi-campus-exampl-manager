@@ -61,7 +61,7 @@
     </el-form>
     <!--  底部  -->
     <div class="el-register-footer">
-      <span>Copyright © 2023 oddfar.com All Rights Reserved.</span>
+      <span>广理出品，必属精品</span>
     </div>
   </div>
 </template>

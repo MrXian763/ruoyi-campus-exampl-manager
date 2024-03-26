@@ -1,6 +1,6 @@
 <template>
   <div class="app-container home">
-    <p>欢迎使用</p>
+    <p>欢迎使用大学生交流学习网管理端</p>
   </div>
 </template>
 
@@ -22,6 +22,9 @@ export default {
 </script>
 
 <style scoped lang="scss">
+p {
+    font-size: 30px;
+}
 .home {
   blockquote {
     padding: 10px 20px;
