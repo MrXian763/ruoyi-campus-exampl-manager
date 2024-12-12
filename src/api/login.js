@@ -9,7 +9,7 @@ export function login(username, password, code, uuid) {
     uuid
   }
   return request({
-    url: 'http://159.75.109.161:8160/login',
+    url: 'http://localhost:8160/login',
     headers: {
       isToken: false
     },
@@ -21,7 +21,7 @@ export function login(username, password, code, uuid) {
 // 注册方法
 export function register(data) {
   return request({
-    url: 'http://159.75.109.161:8160/register',
+    url: 'http://localhost:8160/register',
     headers: {
       isToken: false
     },
@@ -33,7 +33,7 @@ export function register(data) {
 // 获取用户详细信息
 export function getInfo() {
   return request({
-    url: 'http://159.75.109.161:8160/getInfo',
+    url: 'http://localhost:8160/getInfo',
     method: 'get'
   })
 }
@@ -41,7 +41,7 @@ export function getInfo() {
 // 退出方法
 export function logout() {
   return request({
-    url: 'http://159.75.109.161:8160/logout',
+    url: 'http://localhost:8160/logout',
     method: 'post'
   })
 }
@@ -49,7 +49,7 @@ export function logout() {
 // 获取验证码
 export function getCodeImg() {
   return request({
-    url: 'http://159.75.109.161:8160/captchaImage',
+    url: 'http://localhost:8160/captchaImage',
     headers: {
       isToken: false
     },

@@ -35,7 +35,7 @@ export default {
   },
   data() {
     return {
-      title: 'campus',
+      title: 'AI智谈学友交流圈平台',
       logo: logoImg
     }
   }

@@ -1,7 +1,7 @@
 <template>
   <div class="register">
     <el-form ref="registerForm" :model="registerForm" :rules="registerRules" class="register-form">
-      <h3 class="title">campus后台管理系统</h3>
+      <h3 class="title">AI智谈学友交流圈平台后台管理</h3>
       <el-form-item prop="username">
         <el-input v-model="registerForm.username" type="text" auto-complete="off" placeholder="账号">
           <svg-icon slot="prefix" icon-class="user" class="el-input__icon input-icon" />
@@ -61,7 +61,7 @@
     </el-form>
     <!--  底部  -->
     <div class="el-register-footer">
-      <span>广理出品，必属精品</span>
+      <span></span>
     </div>
   </div>
 </template>
